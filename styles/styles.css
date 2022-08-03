@@ -267,7 +267,7 @@ body {
 }
 
 .blocks_titles h5 {
-    font-family: 'Gilroy Medium';
+    font-family: 'Gilroy';
     font-size: 18px;
     line-height: 21px;
 
@@ -275,7 +275,7 @@ body {
 }
 
 .blocks_titles h1 {
-    font-family: 'Gilroy Medium';
+    font-family: 'Gilroy';
     font-size: 45px;
     line-height: 53px;
 
@@ -303,7 +303,7 @@ body {
 .service_card_3,
 .service_card_4 {
     width: 385px;
-    padding: 40px 30px;    
+    padding: 40px 30px;
 
     border: 1px solid #EDEDED;
     border-radius: 5px;
