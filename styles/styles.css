@@ -245,12 +245,13 @@ body {
 
 .logo_img {
     padding: 0 130px;
-    align-self: center;   
+    align-self: center;
 }
 
 .blocks_titles {
     text-align: center;
     margin: auto;
+    margin-bottom: 185px;
 }
 
 .blocks_titles h5 {
@@ -433,4 +434,95 @@ body {
     box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
     border-radius: 5px;
     transform: scale(1.10);
+}
+
+.testimonials {
+    position: relative;
+
+    width: 1170px;
+    margin: 0 auto 140px auto;
+}
+
+.testimonials_cards {
+    display: flex;
+}
+
+.testimonial_card {
+    width: 380px;
+    padding: 40px 30px;
+    margin: 0 5px 60px 0;
+
+    background: #FFFFFF;
+    
+    transition: 1s;
+}
+
+.testimonial_card:hover {
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+    border-radius: 5px;
+}
+
+.testimonial_title,
+.testimonial_name {
+    font-family: 'Gilroy Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #32435C;
+}
+
+.testimonial_text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+
+    color: #6A635B;
+}
+
+.testimonials_button {
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials_button_ikons {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.testimonials_button_base {
+    position: absolute;
+}
+
+.testimonials_button_fill {
+    position: absolute;
+    transform: translate(-15%, -40%)
+}
+
+.testimonials_button_icon {
+    position: absolute;
+    transform: translate(85%, -55%)
+}
+
+.testimonials_button_icon_1 {
+    position: absolute;
+    transform: translateX(-150%);
+}
+
+.testimonials_bcg {
+    position: absolute;
+    z-index: -1;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
