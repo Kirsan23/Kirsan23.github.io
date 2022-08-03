@@ -1,23 +1,11 @@
 @font-face {
-    font-family: 'Gilroy-Semibold';
-    src: url('fonts/Gilroy-Semibold.woff2');
-    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
-        url('fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Gilroy-Semibold.woff2') format('woff2'),
-        url('fonts/Gilroy-Semibold.woff') format('woff'),
-        url('fonts/Gilroy-Semibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Gilroy-Medium';
-    src: url('./fonts/Gilroy-Medium.woff2');
+    src: url('fonts/Gilroy-Medium.woff2');
     src: local('Gilroy Medium'), local('Gilroy-Medium'),
-        url('./fonts/Gilroy-Medium.eot') format('embedded-opentype'),
-        url('./fonts/Gilroy-Medium.woff2') format('woff2'),
-        url('./fonts/Gilroy-Medium.woff') format('woff'),
-        url('./fonts/Gilroy-Medium.ttf') format('truetype');
+        url('fonts/Gilroy-Medium.eot') format('embedded-opentype'),
+        url('fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('fonts/Gilroy-Medium.woff') format('woff'),
+        url('fonts/Gilroy-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -179,8 +167,8 @@ body {
 }
 
 .central_hero_content_block h1 {
-    font-family: 'Gilory';
-    font-weight: 800;
+    font-family: 'Gilroy-Bold';
+    font-weight: 900;
     font-size: 78px;
     line-height: 80px;
     text-align: center;
@@ -191,6 +179,7 @@ body {
 
 .central_hero_content_block p {
     font-family: 'Gilroy-Medium';
+    font-weight: 600;
     font-size: 18px;
     line-height: 147.9%;
     text-align: center;
@@ -199,7 +188,7 @@ body {
 }
 
 .site_types {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Bold';
     font-weight: 800;
     font-size: 78px;
     line-height: 80px;
@@ -553,7 +542,7 @@ body {
 .testimonials_bcg {
     position: absolute;
     z-index: -1;
-    top: 70%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
