@@ -46,6 +46,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('fonts/Gilroy-Regular.woff2');
+    src: local('fonts/Gilroy Regular'), local('Gilroy-Regular'),
+        url('fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('fonts/Gilroy-Regular.woff') format('woff'),
+        url('fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     position: relative;
     margin: auto;
@@ -265,7 +277,7 @@ body {
 }
 
 .blocks_titles h5 {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Regular';
     font-size: 18px;
     line-height: 21px;
 
@@ -273,7 +285,7 @@ body {
 }
 
 .blocks_titles h1 {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Regular';
     font-size: 45px;
     line-height: 53px;
 
