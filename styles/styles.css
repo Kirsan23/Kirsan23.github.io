@@ -506,7 +506,7 @@ body {
 
 .testimonials_button_fill {
     position: absolute;
-    transform: translate(-15%, -40%)
+    transform: translate(-15%, -40%);
 }
 
 .testimonials_button_icon {
