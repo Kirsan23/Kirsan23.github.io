@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url('fonts/Gilroy-Semibold.eot');
+    src: url('fonts/Gilroy-Semibold.woff2');
     src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
         url('fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
         url('fonts/Gilroy-Semibold.woff2') format('woff2'),
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('./fonts/Gilroy-Medium.eot');
+    src: url('./fonts/Gilroy-Medium.woff2');
     src: local('Gilroy Medium'), local('Gilroy-Medium'),
         url('./fonts/Gilroy-Medium.eot') format('embedded-opentype'),
         url('./fonts/Gilroy-Medium.woff2') format('woff2'),
@@ -36,7 +36,7 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('fonts/Gilroy-Bold.eot');
+    src: url('fonts/Gilroy-Bold.woff2');
     src: local('Gilroy Bold'), local('Gilroy-Bold'),
         url('fonts/Gilroy-Bold.eot') format('embedded-opentype'),
         url('fonts/Gilroy-Bold.woff2') format('woff2'),
@@ -397,7 +397,7 @@ body {
 } */
 
 .portfolio_card_titles {
-    font-family: 'Gilroy Medium';
+    font-family: 'Gilroy-Medium';
     font-size: 28px;
     line-height: 33px;
     text-align: left;
