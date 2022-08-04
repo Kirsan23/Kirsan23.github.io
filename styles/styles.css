@@ -256,8 +256,9 @@ body {
 
 .logo {
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 140px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto 140px auto;
 }
 
 .logo_img {
