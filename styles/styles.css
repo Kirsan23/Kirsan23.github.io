@@ -218,13 +218,9 @@ body {
     justify-content: space-around;
 }
 
-.central_hero_content_block_button {
-    width: 255px;
-    height: 60px;
+.button {
+    padding: 4% 5%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
     transition: 1s;
 
     font-family: 'Gilroy Medium';
@@ -393,6 +389,12 @@ body {
     max-width: 50%;
     margin: 0 auto 140px auto;
     
+}
+
+/* !!!! */
+
+.portfolio_img {
+    width: 75%;
 }
 
 .portfolio_cards {
@@ -582,6 +584,7 @@ body {
 }
 
 .pricing_cards {
+    width: 75%;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
