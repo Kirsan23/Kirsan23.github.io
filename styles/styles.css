@@ -354,7 +354,7 @@ body {
     text-align: center;
     margin: 0;
     
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Medium';
     font-size: 22px;
     line-height: 147.9%;
 
@@ -362,7 +362,7 @@ body {
 }
 
 .service_card_text {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Regular';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -388,7 +388,7 @@ body {
 }
 
 .service_links {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Regular';
     font-size: 16px;
     line-height: 147.9%;
     text-decoration-line: underline;
@@ -397,7 +397,7 @@ body {
 }
 
 .service_links:active {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Regular';
     font-size: 16px;
     line-height: 147.9%;
     text-decoration-line: underline;
