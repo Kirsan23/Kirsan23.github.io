@@ -392,6 +392,7 @@ body {
 .portfolio_cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 0 auto 140px auto;
 }
 
