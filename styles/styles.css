@@ -267,6 +267,19 @@ body {
     transform: translateY(-50%);
 }
 
+@media (max-width: 710px) {
+    .hero_content_right_img,
+    .hero_content_left_img {
+        width: 20%;
+    }
+    .central_hero_content_block {
+        width: 55%;
+    }
+    .hero_content {
+        height: 650px;
+    }
+}
+
 .logo {
     display: flex;
     flex-wrap: wrap;
