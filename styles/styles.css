@@ -467,12 +467,14 @@ body {
 .testimonials {
     position: relative;
 
-    width: 1170px;
+    max-width: 75%;
     margin: 0 auto 140px auto;
 }
 
 .testimonials_cards {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .testimonial_card {
@@ -553,7 +555,11 @@ body {
 .testimonials_bcg {
     position: absolute;
     z-index: -1;
-    top: 65%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 57%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -728,7 +734,7 @@ body {
     padding: 0;
 }
 
-.bottom_linte {
+.bottom_line {
     margin: auto;
     display: flex;
     align-items: center;
@@ -746,4 +752,4 @@ body {
 
 
     color: #313131;
-    }
+}
