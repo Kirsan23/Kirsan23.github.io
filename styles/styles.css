@@ -397,16 +397,17 @@ body {
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    max-width: 55%;
     justify-content: center;
-    margin: 0 auto;
+    max-width: 50%;
+    margin: 0 auto 140px auto;
+    
 }
 
 .portfolio_cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 auto 140px auto;
+    margin: 0 auto;
 }
 
 .portfolio_card_1 {
