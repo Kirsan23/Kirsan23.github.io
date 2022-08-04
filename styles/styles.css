@@ -542,7 +542,7 @@ body {
 .testimonials_bcg {
     position: absolute;
     z-index: -1;
-    top: 75%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -551,7 +551,7 @@ body {
 
 .pricing {
     text-align: center;
-    margin-bottom: 140px;
+    margin: 0 auto 140px auto;
 }
 
 .pricing_cards {
