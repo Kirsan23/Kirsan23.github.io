@@ -70,6 +70,10 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .social_img {
     display: flex;
     width: 130px;
@@ -127,6 +131,10 @@ body {
     font-family: 'Gilroy-Bold';
     font-size: 18px;
     text-decoration: none;
+}
+
+.header a:target {
+
 }
 
 .header_title {
@@ -368,7 +376,7 @@ body {
 .service_cards {
     display: flex;
     flex-wrap: wrap;
-    max-width: 50%;
+    max-width: 60%;
     justify-content: center;
     margin: 0 auto;
 }
