@@ -123,6 +123,12 @@ body {
     background: #F2F2F2;
 }
 
+.header a {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    text-decoration: none;
+}
+
 .header_title {
     font-family: 'Gilroy';
     font-weight: 500;
