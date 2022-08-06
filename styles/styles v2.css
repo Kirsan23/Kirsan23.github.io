@@ -1,0 +1,347 @@
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('fonts/Gilroy-Medium.woff2');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('fonts/Gilroy-Medium.eot') format('embedded-opentype'),
+        url('fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('fonts/Gilroy-Medium.woff') format('woff'),
+        url('fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('fonts/Gilroy-Bold.woff2');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('fonts/Gilroy-Bold.eot') format('embedded-opentype'),
+        url('fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('fonts/Gilroy-Bold.woff') format('woff'),
+        url('fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url('fonts/Gilroy-Semibold.woff2');
+    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+        url('fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Semibold.woff2') format('woff2'),
+        url('fonts/Gilroy-Semibold.woff') format('woff'),
+        url('fonts/Gilroy-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('fonts/Gilroy-Regular.woff2');
+    src: local('fonts/Gilroy Regular'), local('Gilroy-Regular'),
+        url('fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('fonts/Gilroy-Regular.woff') format('woff'),
+        url('fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?b9e1mq');
+    src:  url('fonts/icomoon.eot?b9e1mq#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?b9e1mq') format('truetype'),
+      url('fonts/icomoon.woff?b9e1mq') format('woff'),
+      url('fonts/icomoon.svg?b9e1mq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+  
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.social_img {
+    display: flex;
+    width: 130px;
+}
+
+.icon_bcg {
+    display: grid;
+    text-align: center;
+    align-content: center;
+    width: 30px;
+    height: 28px;
+    margin-right: 5%;
+    border-radius: 8px;
+    background: #F2F2F2;
+}
+
+.icon-Icon-:before {
+    content: "\e900";
+    color: #313131;
+}
+
+.icon-Icon-1:before {
+    content: "\e901";
+    color: #313131;
+}
+
+.icon-Icon-2:before {
+    content: "\e902";
+    color: #313131;
+}
+
+body {
+    position: relative;
+    margin: auto;
+
+    background: #FFFFFF;
+}
+
+.main {
+    width: 100%;
+}
+
+.block_titles {
+    text-align: center;
+    margin: 0 auto 80px auto;
+    max-width: 440px;
+}
+
+.block_titles h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #514040;
+}
+
+.block_titles h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+
+    color: #313131;
+}
+
+.main_units {
+    justify-content: center;
+    margin: 0 auto 140px auto;
+}
+
+.cards_lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.button {
+    padding: 15px;
+
+    transition: 0.3s;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #514040;
+    border: 1px solid #514040;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #49AD09;
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+    border-radius: 5px;
+    transform: scale(1.05);
+    color: #FFFFFF;
+    border: 1px solid #49AD09;
+}
+
+/* Header */
+
+
+/* Hero_content */
+.hero_content {
+    position: relative;
+    width: 100%;
+    height: 901px;
+    margin-bottom: 75px;
+
+    background: #F2F2F2;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto 140px auto;
+}
+
+.logo_img {
+    padding: 0 130px;
+    align-self: center;
+}
+
+/* Service */
+.services {
+    max-width: 45%;
+}
+
+.service_card:hover {
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+    border: 1px solid #ffffff;
+}
+
+.service_card {
+    width: 300px;
+    padding: 40px 30px;
+    margin: 3%;
+
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+
+    transition: 1s;
+}
+
+.footer_blocks {
+    flex-wrap: wrap;
+    margin: 0 auto 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Portfolio */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.portfolio_card_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Testimonials */
+.testimonial_card {
+    width: 380px;
+    padding: 40px 30px;
+    margin: 1% auto;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    
+    transition: 1s;
+}
+
+.testimonial_card:hover {
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+    border-radius: 5px;
+
+    border: 1px solid #ffffff;
+}
+
+/* Pricing */
+.pricing_card {
+    position: relative;
+    margin: 2%;
+
+    text-align: center;
+    width: 360px;
+    height: 510px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    transition: 1s;
+    background-color: #FFFFFF;
+}
+
+.pricing_card:hover {
+    border: 1px solid #ffffff;
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.pricing_card div {
+    height: 33%;
+}
+
+.price_disc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .pricing_buttom {
+    position: absolute;
+    transform: translate(50%, 50%);
+    right: 50%;
+    bottom: 50px;
+} */
+
+.pricing_cards ul {
+    list-style-image: url('../img/list_marker.png');
+    text-align: left;
+    padding: 0;
+}
+
+.pricing_cards li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+
+    text-transform: capitalize;
+
+    color: #514040;
+}
+
+.pricing_card h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    text-transform: capitalize;
+
+    color: #313131;
+}
+
+.pricing_card h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #000000;
+}
