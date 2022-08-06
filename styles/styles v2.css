@@ -143,15 +143,18 @@ body {
 }
 
 .main_units {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto 140px auto;
 }
 
 .cards_lists {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0 auto 80px auto;
 }
 
 .button {
@@ -254,7 +257,7 @@ body {
 
 .service_card p {
     margin: 30px 0;
-    
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -400,6 +403,10 @@ body {
 }
 
 /* Footer */
+.footer_title {
+    margin-bottom: 80px;
+}
+
 .footer_blocks {
     flex-wrap: wrap;
     margin: 0 auto 80px auto;
