@@ -147,6 +147,13 @@ body {
     background: #F2F2F2;
 }
 
+.header_ellipse {
+    position: absolute;
+    z-index: 2;
+    right: -145px;
+    top: -80px;
+}
+
 .header_title {
     margin-left: 100px;
 
@@ -409,7 +416,7 @@ body {
 /* Testimonials */
 .testimonial_card {
     width: 380px;
-    padding: 40px 30px;
+    padding: 20px 30px;
     margin: 1% auto;
     border-radius: 5px;
     background: #FFFFFF;
@@ -424,6 +431,28 @@ body {
     border-radius: 5px;
 
     border: 1px solid #ffffff;
+}
+
+.testimonial_title,
+.testimonial_name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #32435C;
+}
+
+.testimonial_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+
+    color: #6A635B;
 }
 
 /* Pricing */
@@ -465,13 +494,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-/* .pricing_buttom {
-    position: absolute;
-    transform: translate(50%, 50%);
-    right: 50%;
-    bottom: 50px;
-} */
 
 .pricing_cards ul {
     list-style-image: url('../img/list_marker.png');
