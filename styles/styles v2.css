@@ -24,6 +24,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 
 .social_img {
@@ -67,6 +68,44 @@ body {
 .main {
     width: 100%;
 }
+
+.decor_vector_1 {
+    position: absolute;
+    top: 730px;
+    left: -75px;
+}
+
+.decor_ellipse_1 {
+    position: absolute;
+    top: 1360px;
+    right: -130px;
+}
+
+.decor_ellipse_2 {
+    position: absolute;
+    top: 2390px;
+    left: -150px;
+}
+
+.decor_vector_2 {
+    position: absolute;
+    top: 3850px;
+    right: -10px;
+}
+
+.decor_rectangle_375 {
+    position: absolute;
+    top: 49200px;
+    left: -20px;
+}
+
+.decor_rectangle_374 {
+    position: absolute;
+    top: 5750px;
+    right: -35px;
+}
+
+
 
 .block_titles {
     text-align: center;
@@ -304,7 +343,7 @@ body {
 
 /* Service */
 .services {
-    max-width: 45%;
+    width: 800px;
 }
 
 .service_card:hover {
@@ -379,7 +418,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 50%;
+    width: 1020px;
 }
 
 .portfolio_card_1_3 {
