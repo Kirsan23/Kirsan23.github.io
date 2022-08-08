@@ -7,6 +7,8 @@
 /* стили для корневого элемента слайдера */
 .itcss {
   position: relative;
+  justify-content: center;
+  display: flex;
   overflow: hidden;
   max-width: 600px;
   margin-left: auto;
@@ -15,13 +17,16 @@
 
 /* стили для wrapper */
 .itcss__wrapper {
+  height: 430px;
   position: relative;
   overflow: hidden;
-  background-color: #eee;
+  background-color: #F2F2F2;
 }
 
 /* стили для элемента, в котором непосредственно расположены элементы (слайды) */
 .itcss__items {
+  margin-top: 40px;
+  counter-reset: slide;
   display: flex;
   transition: transform 0.5s ease;
 }
@@ -33,6 +38,7 @@
 
 /* стили для элементов */
 .itcss__item {
+  counter-increment: slide;
   flex: 0 0 100%;
   max-width: 100%;
   position: relative;
@@ -105,6 +111,8 @@
 }
 
 .itcss__indicator {
+  display: none;
+
   flex: 0 1 auto;
   width: 30px;
   height: 4px;
