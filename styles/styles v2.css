@@ -71,7 +71,7 @@ body {
 }
 
 .main_decor {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .decor_ellipse_3 {
@@ -107,7 +107,7 @@ body {
 
 .decor_rectangle_375 {
     position: absolute;
-    top: 49200px;
+    top: 4920px;
     left: -20px;
 }
 
