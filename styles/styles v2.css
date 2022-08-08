@@ -60,6 +60,7 @@ html {
 
 body {
     position: relative;
+    overflow-x: hidden;
     margin: auto;
 
     background: #FFFFFF;
@@ -67,6 +68,17 @@ body {
 
 .main {
     width: 100%;
+}
+
+.main_decor {
+    overflow-x: hidden;
+}
+
+.decor_ellipse_3 {
+    position: absolute;
+    z-index: 2;
+    right: -145px;
+    top: -80px;
 }
 
 .decor_vector_1 {
@@ -104,8 +116,6 @@ body {
     top: 5750px;
     right: -35px;
 }
-
-
 
 .block_titles {
     text-align: center;
@@ -184,13 +194,6 @@ body {
     justify-content: space-between;
     margin-top: 30px;
     background: #F2F2F2;
-}
-
-.header_ellipse {
-    position: absolute;
-    z-index: 2;
-    right: -145px;
-    top: -80px;
 }
 
 .header_title {
