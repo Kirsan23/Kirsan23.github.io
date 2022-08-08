@@ -424,7 +424,7 @@ body {
     width: 1020px;
 }
 
-.portfolio_card_1_3 {
+.portfolio_cards div:nth-child(odd){
     margin: 5% 5% 0 0;
 }
 
@@ -509,6 +509,8 @@ body {
     border-radius: 5px;
     transition: 1s;
     background-color: #FFFFFF;
+
+
 }
 
 .pricing_card:hover {
@@ -516,6 +518,15 @@ body {
     box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
     border-radius: 5px;
     background-color: #FFFFFF;
+}
+
+.pricing_card:hover .button {
+    background: #49AD09;
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+    border-radius: 5px;
+    transform: scale(1.05);
+    color: #FFFFFF;
+    border: 1px solid #49AD09;
 }
 
 .pricing_card div {
