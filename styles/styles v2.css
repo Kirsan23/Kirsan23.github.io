@@ -330,6 +330,14 @@ body {
 }
 
 /* Logo */
+.logo img:nth-child(1) {
+    margin-left: 0;
+}
+
+.logo img:nth-last-child(1) {
+    margin-right: 0;
+}
+
 .logo {
     display: flex;
     flex-wrap: wrap;
@@ -338,8 +346,7 @@ body {
 }
 
 .logo_img {
-    padding: 0 130px;
-    margin-bottom: 20px;
+    margin: 0 5% 20px 5%;
     align-self: center;
 }
 
@@ -712,11 +719,6 @@ body {
     background-color: #343a40;
     border-color: #343a40;
 }
-
-/* .btn:focus {
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgb(52 58 64 / 50%);
-} */
 
 .btn_icon {
     font-size: 25px;

@@ -8,13 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="styles/styles.css"> -->
     <link rel="stylesheet" href="styles/styles v2.css">
     <link rel="stylesheet" href="styles/simple-adaptive-slider.css">
     <script defer src="simple-adaptive-slider.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-        // инициализация слайдера
         var slider = new ItcSimpleSlider('.itcss', {
             loop: true,
             autoplay: true,
@@ -22,14 +20,10 @@
             swipe: true
         });
 
-        // назначим обработчик при нажатии на кнопку .btn-prev
         document.querySelector('.btn_prev').onclick = function () {
-            // перейдём к предыдущему слайду
             slider.prev();
         }
-        // назначим обработчик при нажатии на кнопку .btn-next
         document.querySelector('.btn_next').onclick = function () {
-            // перейдём к следующему слайду
             slider.next();
         }
         });
@@ -181,9 +175,6 @@
                 <h5 class="block_title">Testimonials</h5>
                 <h1 class="block_title_2">What Customers Say</h1>
             </div>
-            <!-- <svg class="testimonials_bcg" width="70%" height="90%">
-                <rect width="100%" height="100%" fill=#F2F2F2 />
-            </svg> -->
             </script>
             <div class="itcss">
                 <div class="itcss__wrapper">
@@ -246,11 +237,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- Стрелки для перехода к предыдущему и следующему слайду -->
                 <div class="btn_wrapper">
                     <button class="btn btn_prev"><span class="btn_icon">&#8592</span></button>
                     <button class="btn btn_next"><span class="btn_icon">&#8594</span></button>
-                    <!-- <button class="btn btn_next">NEXT</button> --> <span></span>
                 </div>
             </div>
         </div>
