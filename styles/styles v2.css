@@ -58,6 +58,11 @@ html {
     color: #313131;
 }
 
+.icon-Icon-3:before {
+    content: "\e903";
+    color: #514040;
+}
+
 body {
     position: relative;
     overflow-x: hidden;
@@ -648,6 +653,48 @@ body {
 .footer_list {
     list-style: none;
     padding: 0;
+}
+
+.email_form {
+    position: relative;    
+}
+
+.email_form_text {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    
+    transition: 0.3s;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #514040;
+}
+
+.email_form_text:hover {
+    opacity: 0;
+}
+
+.email_enter {
+    width: 175px;
+    height: 40px;
+    border: none;
+    background: #F2F2F2;
+    border-radius: 4px;
+}
+
+.email_form_button {
+    right: 2px;
+    font-size: 21px;
+    top: 10px;
+    position: absolute;
+    border: none;
+    background: none;
+
 }
 
 .bottom_line {
