@@ -821,14 +821,6 @@ body {
 }
 
 @media screen and (min-width: 375px) and (max-width: 500px) {
-    .body {
-        overflow: hidden;
-    }
-
-    .main {
-        overflow: hidden;
-    }
-    
     .main_units {
         width: 95%;
     }
