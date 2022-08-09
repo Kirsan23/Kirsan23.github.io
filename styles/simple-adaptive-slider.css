@@ -15,14 +15,6 @@
   margin-right: auto;
 }
 
-/* стили для wrapper */
-.itcss__wrapper {
-  height: 430px;
-  position: relative;
-  overflow: hidden;
-  background-color: #F2F2F2;
-}
-
 /* стили для элемента, в котором непосредственно расположены элементы (слайды) */
 .itcss__items {
   margin-top: 40px;
