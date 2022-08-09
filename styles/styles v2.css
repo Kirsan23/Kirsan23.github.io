@@ -680,6 +680,7 @@ body {
 }
 
 .email_enter {
+    padding-left: 10px;
     width: 175px;
     height: 40px;
     border: none;
@@ -687,7 +688,18 @@ body {
     border-radius: 4px;
 }
 
+.email_enter::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #514040;
+}
+
 .email_form_button {
+    opacity: 0.5;
     right: 2px;
     font-size: 21px;
     top: 10px;
@@ -695,6 +707,11 @@ body {
     border: none;
     background: none;
 
+    transition: 0.2s;
+}
+
+.email_form_button:hover {
+    opacity: 1;
 }
 
 .bottom_line {
