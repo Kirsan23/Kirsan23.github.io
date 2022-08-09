@@ -71,6 +71,7 @@ body {
 }
 
 .main {
+    position: relative;
     overflow: hidden;
     width: 100%;
 }
