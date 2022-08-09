@@ -65,13 +65,13 @@ html {
 
 body {
     position: relative;
-    overflow-x: hidden;
     margin: auto;
 
     background: #FFFFFF;
 }
 
 .main {
+    overflow: hidden;
     width: 100%;
 }
 
