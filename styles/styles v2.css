@@ -824,6 +824,10 @@ body {
     .body {
         overflow: hidden;
     }
+
+    .main {
+        overflow: hidden;
+    }
     
     .main_units {
         width: 95%;
