@@ -75,10 +75,6 @@ body {
     width: 100%;
 }
 
-.main_decor {
-    overflow: hidden;
-}
-
 .decor_ellipse_3 {
     position: absolute;
     z-index: 2;
