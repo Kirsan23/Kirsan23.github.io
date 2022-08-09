@@ -822,7 +822,7 @@ body {
 
 @media screen and (min-width: 375px) and (max-width: 500px) {
     .body {
-        overflow-x: hidden;
+        overflow: hidden;
     }
     
     .main_units {
