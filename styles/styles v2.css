@@ -835,6 +835,10 @@ body {
         margin-left: 30px;
     }
 
+    .header_nadavigation_element {
+        margin: 0;
+    }
+
     #mobile_menu {
         display: inline;
     }
@@ -861,6 +865,14 @@ body {
     
     .portfolio_img {
         width: 340px;
+    }
+
+    .portfolio_card_titles {
+        font-size: 20px;
+    }
+
+    .portfolio_links {
+        font-size: 15px;
     }
 
     .itcss__wrapper {
