@@ -7,10 +7,6 @@
     background: none;
 }
 
-.menu_button:hover, .menu_button:focus {
-    background: none;
-}
-
 .menu {
     position: relative;
     display: inline-block;
@@ -44,3 +40,8 @@
 }
 
 .show {display: block;}
+
+.active_button .icon-Icon-11{
+    content: "\e904";
+    color: #ff0000;
+}

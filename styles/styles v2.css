@@ -68,6 +68,11 @@ html {
     color: #313131;
 }
 
+.icon-Icon-12:before {
+    content: "\e904";
+    color: #35f804;
+}
+
 body {
     position: relative;
     margin: auto;
