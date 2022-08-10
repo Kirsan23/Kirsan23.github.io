@@ -70,7 +70,8 @@ html {
 
 .icon-Icon-12:before {
     content: "\e904";
-    color: #35f804;
+    color: #49AD09;
+    text-shadow: 2px 2px black;
 }
 
 body {
