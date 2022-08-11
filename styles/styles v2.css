@@ -17,7 +17,7 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-  
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -45,17 +45,14 @@ html {
 
 .icon-Icon-:before {
     content: "\e900";
-    color: #313131;
 }
 
 .icon-Icon-1:before {
     content: "\e901";
-    color: #313131;
 }
 
 .icon-Icon-2:before {
     content: "\e902";
-    color: #313131;
 }
 
 .icon-Icon-3:before {
@@ -65,7 +62,6 @@ html {
 
 .icon-Icon-11:before {
     content: "\e904";
-    color: #313131;
 }
 
 .icon-Icon-12:before {
@@ -76,8 +72,11 @@ html {
 
 body {
     position: relative;
+    width: 100%;
     margin: auto;
-
+    font-family: 'Roboto';
+    line-height: 1.2;
+    color: #313131;
     background: #FFFFFF;
 }
 
@@ -143,23 +142,16 @@ body {
 }
 
 .block_titles h5 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-
     color: #514040;
 }
 
 .block_titles h1 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 45px;
     line-height: 53px;
-
-    color: #313131;
 }
 
 .main_units {
@@ -179,16 +171,11 @@ body {
 
 .button {
     padding: 15px 40px;
-
     transition: 0.3s;
-
-    font-family: 'Roboto';
-    font-style: normal;
     text-decoration: none;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-
     color: #514040;
     border: 1px solid #514040;
     border-radius: 5px;
@@ -206,6 +193,7 @@ body {
 /* Header */
 .header {
     width: 100%;
+    padding: 0 135px;
     position: fixed;
     z-index: 1;
     display: flex;
@@ -215,15 +203,8 @@ body {
 }
 
 .header_title {
-    margin-left: 100px;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-
-    color: #313131;
 }
 
 .header_right {
@@ -237,14 +218,8 @@ body {
 
 .header_navigation_element {
     margin: auto 20px;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 21px;
-
-    color: #313131;
 }
 
 .header a {
@@ -257,13 +232,8 @@ body {
 }
 
 .header_sign_element {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 21px;
-
-    color: #313131;
 }
 
 
@@ -273,7 +243,6 @@ body {
     width: 100%;
     height: 901px;
     margin-bottom: 75px;
-
     background: #F2F2F2;
 }
 
@@ -289,39 +258,24 @@ body {
 
 .central_hero_content_block h1 {
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 800;
     font-size: 78px;
-    line-height: 80px;
-
     text-align: center;
-    letter-spacing: -0.05em;
-
-    color: #313131;
 }
 
 .central_hero_content_block p {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 147.9%;
-
     text-align: center;
-
     color: #514040;
 }
 
 .site_types {
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 800;
     font-size: 78px;
-    line-height: 80px;
-
     text-align: center;
     letter-spacing: -0.05em;
-
     color: #49AD09;
 }
 
@@ -333,12 +287,8 @@ body {
 
 .central_hero_content_block_link {
     margin-right: 10px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 21px;
-
     color: #514040;
 }
 
@@ -378,15 +328,12 @@ body {
     display: flex;
     flex-wrap: inherit;
     align-content: space-between;
-
     width: 300px;
     padding: 40px 30px;
     margin: 2%;
-
     background-color: white;
     border: 1px solid #EDEDED;
     border-radius: 5px;
-
     transition: 1s;
 }
 
@@ -406,36 +353,20 @@ body {
 
 .service_card h4 {
     margin: 0;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 22px;
-    line-height: 147.9%;
-
-    color: #313131;
 }
 
 .service_card p {
     margin: 30px 0;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 147.9%;
-
     color: #514040;
 }
 
 .service_card a {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 147.9%;
-
-    color: #313131;
 }
 
 .service_card a:active {
@@ -462,22 +393,14 @@ body {
 
 .portfolio_links {
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 21px;
-
     color: #49AD09;
 }
 
 .portfolio_card_titles {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 28px;
-    line-height: 33px;
-
     color: #000000;
 }
 
@@ -494,7 +417,6 @@ body {
     background: #FFFFFF;
     border: 1px solid #EDEDED;
     border-radius: 5px;
-    
     transition: 1s;
 }
 
@@ -508,22 +430,16 @@ body {
 .testimonial_title,
 .testimonial_name {
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 17px;
-
     color: #32435C;
 }
 
 .testimonial_text {
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
     letter-spacing: -0.01em;
-
     color: #6A635B;
 }
 
@@ -531,7 +447,6 @@ body {
 .pricing_card {
     position: relative;
     margin: 2%;
-
     text-align: center;
     width: 360px;
     height: 510px;
@@ -539,8 +454,6 @@ body {
     border-radius: 5px;
     transition: 1s;
     background-color: #FFFFFF;
-
-
 }
 
 .pricing_card:hover {
@@ -585,36 +498,22 @@ body {
 }
 
 .pricing_cards li {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 100%;
-
     text-transform: capitalize;
-
     color: #514040;
 }
 
 .pricing_card h1 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 60px;
-    line-height: 70px;
     text-transform: capitalize;
-
-    color: #313131;
 }
 
 .pricing_card h2 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 30px;
-    line-height: 35px;
     text-align: center;
-
     color: #000000;
 }
 
@@ -631,24 +530,14 @@ body {
 }
 
 .footer_dev {
-    font-family: 'Roboto';
-    font-style: bold;
     font-weight: 800;
     font-size: 35px;
-    line-height: 21px;
-
-    color: #313131;
 }
 
 .footer_lists {
     margin-bottom: 40px;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 23px;
-
     color: #1C1C1D;
 }
 
@@ -656,13 +545,8 @@ body {
     margin-bottom: 25px;
     padding: 0;
 
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 100%;
-
-    color: #313131;
     }
 
 .footer_list {
@@ -678,15 +562,9 @@ body {
     position: absolute;
     top: 14px;
     left: 12px;
-    
     transition: 0.3s;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px;
-
     color: #514040;
 }
 
@@ -704,12 +582,8 @@ body {
 }
 
 .email_enter::placeholder {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px;
-
     color: #514040;
 }
 
@@ -721,7 +595,6 @@ body {
     position: absolute;
     border: none;
     background: none;
-
     transition: 0.2s;
 }
 
@@ -739,14 +612,8 @@ body {
 
 .fotter_bottom_text {
     margin-bottom: 20px;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 100%;
-
-    color: #313131;
 }
 
 .itcss__wrapper {
@@ -843,12 +710,8 @@ body {
 
     .header_navigation_element {
         margin: 0;
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 18px;
-        line-height: 21px;
-        color: #313131;
     }
 
     .header a{
@@ -919,7 +782,7 @@ body {
         position: absolute;
         z-index: 0;
         right: 15px;
-        top: 56px;
+        top: 80px;
         min-width: 160px;
         
         box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
