@@ -706,8 +706,6 @@ body {
 .bottom_line {
     margin: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 40px;
 }
 
@@ -867,8 +865,12 @@ body {
 
     }
     .portfolio_cards div.portfolio_card:nth-child(even) {
-        margin-top: 30px;
+        margin-top: 0;
         margin-left: 25px;
+    }
+
+    .portfolio_cards div.portfolio_card:nth-child(odd) {
+        margin-right: 25px;
     }
 
     .portfolio_cards {
@@ -880,7 +882,7 @@ body {
     }
     
     .portfolio_img {
-        width: 340px;
+        width: 100%;
     }
 
     .portfolio_card_titles {
@@ -905,6 +907,7 @@ body {
     }
 /* Footer */
     .footer_blocks{
+        margin-top: 60px;
         width: 90%;
         justify-content: center;
         text-align: center;
