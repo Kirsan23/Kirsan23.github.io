@@ -789,6 +789,17 @@ body {
 }
 
 @media screen and (min-width: 375px) and (max-width: 500px) {
+    .block_titles {
+        margin: 0 auto 40px auto;
+    }
+
+    .cards_lists {
+        margin: 0 auto 40px auto;
+    }
+    .header {
+        padding: 0;
+    }
+
     .header_title {
         margin-left: 30px;
     }
@@ -821,6 +832,7 @@ body {
     
     .main_units {
         width: 95%;
+        margin: 0 auto 70px auto;
     }
 
     .hero_content_img {
@@ -831,8 +843,40 @@ body {
         width: 100%;
     }
 
+    .logo {
+        width: 70%;
+        margin: 0 auto 100px auto;
+    }
+/* Services */
+    .service_card {
+        margin: 0 auto 10px auto;
+        width: auto;
+        padding: 20px 15px;
+    }
+
+    .service_cards div:nth-child(-n+2) {
+        margin-bottom: 10px;
+    }
+
+    .service_cards div:nth-child(odd) {
+        margin-right: 0;
+    }
+
+/* Portfolio */
+    .portfolio {
+
+    }
+    .portfolio_cards div.portfolio_card:nth-child(even) {
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+
     .portfolio_cards {
         width: 340px;
+    }
+
+    .portfolio_card {
+        margin-bottom: 10px;
     }
     
     .portfolio_img {
@@ -846,13 +890,47 @@ body {
     .portfolio_links {
         font-size: 15px;
     }
-
+/* Slider */
     .itcss__wrapper {
         height: 450px;
     }
     
     .testimonial_card {
-        width: 75%;
+        width: 55%;
+    }
+/* Pricing */
+    .pricing_card {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+/* Footer */
+    .footer_blocks{
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .web_dev {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .footer_dev_text {
+        margin-bottom: 20px;
+    }
+
+    .footer_dev {
+        margin-bottom: 15px;
+    }
+
+    .resources {
+        margin-right: 70px;
+    }
+
+    .footer_lists {
+        margin-bottom: 20px;
     }
     
     .menu_button {
