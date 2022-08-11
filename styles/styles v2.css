@@ -88,6 +88,10 @@ html {
     color: #313131;
 }
 
+.icon-Icon-11 {
+    color: #313131;
+}
+
 body {
     position: relative;
     width: 100%;
@@ -704,7 +708,7 @@ body {
 }
 
 .bottom_line {
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     margin-bottom: 40px;
 }
