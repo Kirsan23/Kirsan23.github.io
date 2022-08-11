@@ -106,7 +106,7 @@ body {
 
 .decor_ellipse_3 {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     right: -145px;
     top: -80px;
 }
@@ -230,7 +230,7 @@ body {
 /* Header */
 .header {
     width: 100%;
-    padding: 30px 135px 0 135px;
+    padding: 30px 135px 30px 135px;
     position: fixed;
     z-index: 1;
     display: flex;
@@ -260,6 +260,9 @@ body {
 
 .header a {
     text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #313131;
 }
 
 .header_sign {
@@ -410,6 +413,7 @@ body {
 .service_card a {
     font-weight: 500;
     font-size: 16px;
+    color: #313131;
 }
 
 .service_card a:active {
@@ -468,9 +472,8 @@ body {
 
 .testimonial_card {
     width: 380px;
-    padding: 20px 30px;
-    margin: 1% auto;
-    border-radius: 5px;
+    padding: 40px 30px;
+    margin: 1% auto 60px auto;
     background: #FFFFFF;
     border: 1px solid #EDEDED;
     border-radius: 5px;
@@ -492,12 +495,21 @@ body {
     color: #32435C;
 }
 
+.testimonial_title {
+    padding-bottom: 20px;
+}
+
 .testimonial_text {
+    padding-bottom: 20px;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
     letter-spacing: -0.01em;
     color: #6A635B;
+}
+
+.stars {
+    padding-bottom: 20px;
 }
 
 /* Pricing */
@@ -524,7 +536,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.pricing_card:hover .button {
+.pricing_card:hover .button_1 {
     background: #49AD09;
     box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
     border-radius: 5px;
@@ -705,12 +717,9 @@ body {
     font-size: 16px;
 }
 
-.itcss__wrapper {
-    height: 430px;
-    position: relative;
+/* .itcss__wrapper {
     overflow: hidden;
-    background-color: #F2F2F2;
-}
+} */
 
 .itcss__item>div::before {
     position: absolute;
@@ -723,15 +732,14 @@ body {
 }
 
 .btn_wrapper {
-    position: absolute;
-    bottom: 20px;
-    background-color:#ffffff;
+    margin-bottom: 30px;
     border-radius: 40px;
     display: flex;
     width: 100px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    background-color:#ffffff;
 }
 
 .btn {
@@ -765,20 +773,12 @@ body {
 .btn_icon {
     font-size: 25px;
     font-weight: 900;
-    position: absolute;
-    top: -4%;
-    left: 20%;
 }
 
+.btn_next,
 .btn_prev {
-    position: relative;
-    border-radius: 40px;
-    width: 40px;
-    height: 40px;
-}
-
-.btn_next {
-    position: relative;
+    display: flex;
+    align-items: flex-end;
     border-radius: 40px;
     width: 40px;
     height: 40px;
