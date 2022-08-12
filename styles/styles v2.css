@@ -190,6 +190,7 @@ body {
 }
 
 .button_1 {
+    display: inline-block;
     padding: 15px 40px;
     transition: 0.3s;
     text-decoration: none;
@@ -211,6 +212,7 @@ body {
 }
 
 .button_2 {
+    display: inline-block;
     padding: 15px 40px;
     transition: 0.3s;
     text-decoration: none;
@@ -388,6 +390,7 @@ body {
 }
 
 .service_card:hover {
+    position: relative;
     box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
     border: 1px solid #ffffff;
 }
@@ -534,6 +537,7 @@ body {
 }
 
 .pricing_card:hover {
+    position: relative;
     border: 1px solid #ffffff;
     box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
     border-radius: 5px;
