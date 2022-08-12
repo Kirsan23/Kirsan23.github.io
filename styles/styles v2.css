@@ -443,6 +443,11 @@ body {
     margin-bottom: 65px;
 }
 
+/* .portfolio_card:nth-child(even) {
+    margin-top: 55px;
+    margin-left: 50px;
+} */
+
 .portfolio_cards div.portfolio_card:nth-child(even) {
     margin-top: 55px;
     margin-left: 50px;
